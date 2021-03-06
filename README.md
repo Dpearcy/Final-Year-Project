@@ -11,9 +11,13 @@ My ray tracer works by for each pixel I fire a ray from a pixel into the world s
 and then appied to the pixel to displayed to the screen.
 As the Ray is fired and the pixel caluations are all done the CPU in C++ and does nothing on GPU. But as the rander is built to in Classes and OOP,
 It can be moved to DOP.
-
-
-////not finished yet still need to finish editing it .
+I started with just firing into the world. the next step was making a sphere the ray could hit.
+The maths behind this is as follows: getting O + tD  O = orgin of ray, t = point along the a ray, D = direction of the ray(nomalized)
+we need to find point of entry and exit
+ next step right-angled triangle of centre of sphere we will C and O so now  simple  L = C - O, Tca = dot(L,D); now we use Pythagorean theorem 
+so that means d2 + T2ca = L2 d = scrt(L2−t2ca) = scrt(L∙L−tca∙tca)
+finally d2+t2hc=radius2  thc= scrt(radius2−d2)  t0=tca−thc   t1=tca+thc t0 is the point of entry to sphere and t1 is point of exit to sphere.
+the final color appied to the window at load. DirectX is never used. 
 
 
 The pictures below are of finished product and the dirrerent scenes. 
