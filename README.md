@@ -20,7 +20,7 @@ finally d2+t2hc=radius2  thc= scrt(radius2−d2)  t0=tca−thc   t1=tca+thc t0 i
 the final color appied to the window at load. DirectX is never used. 
 
 
-The pictures below are of finished product and the dirrerent scenes. 
+The pictures below are of finished product and the different scenes. 
 ![bandicam 2019-04-06 21-34-03-430](https://user-images.githubusercontent.com/44159287/109843636-3217b680-7c43-11eb-86cd-9760905c9404.jpg)
 ![bandicam 2019-04-06 21-52-41-295](https://user-images.githubusercontent.com/44159287/109843707-4491f000-7c43-11eb-9040-ae1cfc9d19cc.jpg)
 ![bandicam 2019-04-06 21-54-10-299](https://user-images.githubusercontent.com/44159287/109843718-48257700-7c43-11eb-8c30-fff05c886bca.jpg)
